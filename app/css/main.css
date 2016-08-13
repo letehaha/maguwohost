@@ -1,0 +1,100 @@
+.container {
+  max-width: 1170px;
+  margin: 0 auto; }
+
+body {
+  font-family: 'Open Sans'; }
+
+.top-nav {
+  background-color: #fff; }
+
+.top-nav_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.top-nav_logo-link {
+  width: 19.5%;
+  padding: 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 60px 0 57px; }
+
+.logo-link_img {
+  width: 100%;
+  max-width: 26px;
+  display: block; }
+
+.logo-link_text {
+  font: 400 30px/35px 'Open Sans';
+  color: #202242; }
+
+.logo-link_text-b {
+  font-weight: 700; }
+
+.top-nav_nav {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 39%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 70px 0 60px; }
+
+.top-nav_elem-link {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #202242; }
+
+.top-nav_elem-link-active {
+  color: #ffe13e; }
+
+.top-nav_help {
+  width: 28%;
+  border-left: 1px solid #ccc;
+  padding-left: 50px;
+  padding: 40px 0 30px 32px; }
+  .top-nav_help p {
+    font-size: 12px;
+    margin-bottom: 25px;
+    font-weight: 700; }
+
+.top-nav_help-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .top-nav_help-container button {
+    font-size: 14px;
+    font-weight: 700;
+    padding: 15px 30px;
+    border: none;
+    background-color: #ffe13e;
+    cursor: pointer; }
+  .top-nav_help-container .border {
+    display: block;
+    height: 40px;
+    width: 1px;
+    background-color: #ccc; }
+  .top-nav_help-container .number {
+    display: block;
+    font-size: 24px; }
