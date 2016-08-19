@@ -45,4 +45,6 @@ $(function() {
 	    });
 
 	});
+
+	$('.ft-go-top').smoothScroll({speed: 700});
 });
